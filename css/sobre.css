@@ -1,0 +1,44 @@
+.sobre {
+    background-color: var(--azul-de-fundo);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem;
+    gap: 1rem;
+
+    width: 100%;
+
+}
+
+.sobre p {
+
+    font-size: 0.875rem;
+}
+
+@media(min-width: 768px) {
+
+    .sobre {
+        padding: 2rem;
+    }
+  
+}
+@media(min-width: 1280px) {
+
+
+    .sobre {
+        display: flex;
+        flex-direction: column;
+       justify-content: center;
+        padding: 9.5rem;
+        height: 23rem;
+    }
+    .sobre h2 {
+        font-size: 2rem;
+    }
+    .sobre p {
+
+        font-size: 1rem;
+    }
+    
+
+}

@@ -1,0 +1,22 @@
+* {
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Raleway', sans-serif;
+}
+
+:root {
+
+    --branco-de-fundo: #E5E5E5;
+    --azul-de-fundo: #EAF2FD;
+    --cinza-escuro-font: #464646;
+}
+
+body {
+
+    background-color: var(--branco-de-fundo);
+    color: var(--cinza-escuro-font);
+
+}

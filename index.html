@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="css/skills.css">
     <link rel="stylesheet" href="css/hobbies.css">
     <link rel="stylesheet" href="css/formacao.css">
-    <link rel="stylesheet" href="css/projetos.css">
+    <link rel="stylesheet" href="css/experiencia.css">
     <link rel="stylesheet" href="css/rodape.css">
     <title>Portfolio</title>
 </head>
@@ -41,29 +41,30 @@
             <li class="menu__list__item__email"><a href="#contato">contato@fulana.com</a></li>
         </nav>
     </section>
-
+    <!-- Sessão de Conteudo -->
     <main>
-        <!-- Sessão de Header/Title/Hero -->
+        <!-- Sessão de Hero -->
         <section class="hero">
             <img src="assets/imgs/deys.jpeg" alt="Foto de Deys Rodrigues" class="hero__photo">
-            
-            <div  class="hero__box">
+
+            <div class="hero__box">
                 <h1>Olá, meu nome é Fulana de Tal e construo páginas web</h1>
-                <p>Eu sou formada em lorem ipsum sit amet consectetur e atualmente estou participando no projeto Oracle ONE
+                <p>Eu sou formada em lorem ipsum sit amet consectetur e atualmente estou participando no projeto Oracle
+                    ONE
                     na Alura.</p>
-    
+
                 <ul class="links">
                     <li class="link__item link__icon">
-                        <a href="">Github</a>
+                        <a href="#">Github</a>
                     </li>
                     <li class="link__item link__icon">
-                        <a href=""> Linkedin</a>
+                        <a href="#"> Linkedin</a>
                     </li>
                     <li class="link__item link__icon">
-                        <a href=""> Instagram</a>
+                        <a href="#"> Instagram</a>
                     </li>
                     <li class="link__item link__icon">
-                        <a href=""> Curriculo </a>
+                        <a href="#"> Curriculo </a>
                     </li>
                 </ul>
             </div>
@@ -71,7 +72,7 @@
         </section>
 
         <!-- Sessão sobre  -->
-        <section class="sobre">
+        <section class="sobre" id="#sobremim">
             <h2>Sobre mim</h2>
             <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque velit velit, volutpat semper
                 dignissim dictum, imperdiet ut lacus. Quisque gravida ex a mattis pretium. Suspendisse potenti. Ut
@@ -178,7 +179,7 @@
             </div>
         </section>
 
-
+        <!-- formacao -->
         <section class="formacao">
             <h2>Formação acadêmica</h2>
             <div class="formacao__container">
@@ -188,7 +189,7 @@
                         <picture>
                             <source media="(max-width: 750px)" srcset="assets/imgs/formacao-mobile/ufpr.png"
                                 type="image/png">
-                                <source media="(max-width: 1280px)" srcset="assets/imgs/formacao-tablet/ufpr.png"
+                            <source media="(max-width: 1280px)" srcset="assets/imgs/formacao-tablet/ufpr.png"
                                 type="image/png">
                             <img src="assets/imgs/formacao-desktop/ufpr-desktop.png" alt="">
                         </picture>
@@ -204,7 +205,7 @@
                         <picture>
                             <source media="(max-width: 750px)" srcset="assets/imgs/formacao-mobile/ufpr.png"
                                 type="image/png">
-                                <source media="(max-width: 1280px)" srcset="assets/imgs/formacao-tablet/ufpr.png"
+                            <source media="(max-width: 1280px)" srcset="assets/imgs/formacao-tablet/ufpr.png"
                                 type="image/png">
                             <img src="assets/imgs/formacao-desktop/ufpr-desktop.png" alt="">
                         </picture>
@@ -220,7 +221,7 @@
                         <picture>
                             <source media="(max-width: 750px)" srcset="assets/imgs/formacao-mobile/ufpr.png"
                                 type="image/png">
-                                <source media="(max-width: 1280px)" srcset="assets/imgs/formacao-tablet/ufpr.png"
+                            <source media="(max-width: 1280px)" srcset="assets/imgs/formacao-tablet/ufpr.png"
                                 type="image/png">
                             <img src="assets/imgs/formacao-desktop/ufpr-desktop.png" alt="">
                         </picture>
@@ -230,12 +231,150 @@
                         <span>2018 - UFPR</span>
                     </figcaption>
                 </figure>
-                
+
 
             </div>
 
         </section>
+        <!-- Sessão de experiencia -->
+        <section class="experiencia">
+            <h2>Experiência profissional</h2>
+            <div class="container__principal flex-column">
+
+                <!-- projeto 1 -->
+                <div class="experiencia__container flex-column">
+                    <picture class="experiencias__container__img">
+                        <source media="(max-width: 750px)" srcset="assets/imgs/experiencia/projeto1-mobile.jpg"
+                            type="image/png" class="experiencias__container__img">
+                        <source media="(max-width: 1280px)" srcset="assets/imgs/experiencia/projeto1-tablet.jpg"
+                            type="image/png" class="experiencias__container__img">
+                        <img src="assets/imgs/experiencia/projeto1-desktop.jpg" alt="Projeto 1 "
+                            class="experiencias__container__img">
+                    </picture>
+
+                    <div class="experiencias__container__box flex-column">
+                        <p>Decodificador de texto</p>
+                        <span>Challenge Alura
+                            Codificador</span>
+                        <div class="box-buttons">
+                            <a href="" class="buttons-geral buttons-geral-2">Repositório</a><a href=""
+                                class="buttons-geral buttons-geral-1">Ver demo</a>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- projeto 2 -->
+                <div class="experiencia__container flex-column troca-lados">
+                    <picture class="experiencias__container__img">
+                        <source media="(max-width: 750px)" srcset="assets/imgs/experiencia/projeto2-mobile.jpg"
+                            type="image/png">
+                        <source media="(max-width: 1280px)" srcset="assets/imgs/experiencia/projeto2-tablet.jpg"
+                            type="image/png" class="experiencias__container__img">
+                        <img src="assets/imgs/experiencia/projeto2-desktop.jpg" alt="Projeto 2 "
+                            class="experiencias__container__img">
+                    </picture>
+                    <div class="experiencias__container__box flex-column">
+                        <p>Jogo criado com HTML, CSS e JavaScript</p>
+                        <span>Challenge Oracle
+                        </span>
+                        <div class="box-buttons">
+                            <a href="" class="buttons-geral buttons-geral-2">Repositório</a><a href=""
+                                class="buttons-geral buttons-geral-1">Ver demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- projeto 3 -->
+                <div class="experiencia__container flex-column">
+                    <picture class="experiencias__container__img">
+                        <source media="(max-width: 750px)" srcset="assets/imgs/experiencia/projeto3-mobile.jpg"
+                            type="image/png" class="experiencias__container__img">
+                        <source media="(max-width: 1280px)" srcset="assets/imgs/experiencia/projeto3-tablet.jpg"
+                            type="image/png" class="experiencias__container__img">
+                        <img src="assets/imgs/experiencia/projeto3-desktop.jpg" alt="Projeto 3 "
+                            class="experiencias__container__img">
+                    </picture>
+                    <div class="experiencias__container__box flex-column">
+                        <p>Decodificador de texto</p>
+                        <span>Challenge Alura
+                            Codificador
+                        </span>
+                        <div class="box-buttons">
+                            <a href="" class="buttons-geral buttons-geral-2">Repositório</a><a href=""
+                                class="buttons-geral buttons-geral-1">Ver demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- projeto 4 -->
+                <div class="experiencia__container flex-column troca-lados">
+                    <picture class="experiencias__container__img">
+                        <source media="(max-width: 750px)" srcset="assets/imgs/experiencia/projeto4-mobile.jpg"
+                            type="image/png" class="experiencias__container__img">
+                        <source media="(max-width: 1280px)" srcset="assets/imgs/experiencia/projeto4-tablet.jpg"
+                            type="image/png" class="experiencias__container__img">
+                        <img src="assets/imgs/experiencia/projeto4-desktop.jpg" alt="Projeto 4 "
+                            class="experiencias__container__img">
+                    </picture>
+                    <div class="experiencias__container__box flex-column">
+                        <p>Jogo criado com HTML e JavaScript</p>
+                        <span>Challenge Oracle
+                        </span>
+                        <div class="box-buttons">
+                            <a href="" class="buttons-geral buttons-geral-2">Repositório</a><a href=""
+                                class="buttons-geral buttons-geral-1">Ver demo</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
     </main>
+    <!-- Sessão de rodape -->
+    <footer>
+        <div class="footer-box1">
+            <img src="assets/imgs/phone.jpg" alt="imagem de um telefone" class="img-desktop">
+
+            <div class="rodape__container">
+                <h2>Contato</h2>
+                <p>Quer entrar em contato comigo?
+                    Preencha o formulário ao lado e entrarei em contato o mais rápido possível.</p>
+
+                <form action="#" method="POST" class="input">
+                    <div class="input-box">
+                        <label for="nome">Nome</label>
+                        <input type="text" id="nome" name="nome" value="Digite seu nome"
+                            onfocus="if(this.value=='Digite seu nome') this.value='';" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="mensagem">Assunto</label>
+                        <input type="text" id="assunto" name="assunto" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="mensagem">Mensagem</label>
+                        <textarea id="mensagem" name="mensagem" required></textarea>
+                    </div>
+
+                    <button type="submit" class="">Enviar mensagem</button>
+                </form>
+            </div>
+
+
+        </div>
+        <div class="rodape-parte2">
+            <p>desenvolvido por <a href="https://github.com/DeysRodrigues">Deys Rodrigues </a></p>
+            <span>2023</span>
+        </div>
+    </footer>
 </body>
 
 </html>

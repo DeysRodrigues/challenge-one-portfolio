@@ -1,0 +1,103 @@
+.experiencia {
+    padding: 2rem;
+}
+
+.experiencia h2 {
+    color: var(--cinza-escuro-font);
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-size: 1.375rem;
+    text-align: center;
+}
+
+/* container que engloba os outros*/
+.container__principal {
+    gap: 1rem;
+}
+
+/* container menor(obtem a imagem e textos) */
+.experiencia__container {
+
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.experiencias__container__img {
+    width: 100%;
+
+}
+
+/* box que contem os textos */
+.experiencias__container__box {
+    width: 100%;
+    gap: 0.5rem;
+
+}
+
+.experiencias__container__box p {
+
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.experiencia__container span {
+    display: block;
+    font-weight: 500;
+    font-size: 0.875rem;
+}
+
+@media(min-width: 768px) {
+    .container__principal {
+         
+            gap: 2rem;
+        
+
+    }
+}
+
+@media(min-width: 1280px) {
+    .experiencia {
+        padding: 0 9.5rem;
+    }
+
+    .experiencia h2 {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+
+    }
+
+    .container__principal {
+
+        gap: 3rem;
+    }
+
+    .experiencia__container {
+
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .troca-lados {
+
+        flex-direction: row-reverse;
+    }
+
+    .experiencias__container__box {
+        flex-shrink: 2;
+    }
+
+    .experiencias__container__box p {
+        font-size: 1.375rem;
+    }
+
+    .experiencia__container span {
+        display: block;
+        font-weight: 500;
+        font-size: 1rem;
+    }
+
+}

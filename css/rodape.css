@@ -148,6 +148,7 @@ footer p {
     }
     .footer-box1 {
         display: flex;
+        justify-content: center;
         gap: 1rem;
     }
 }
